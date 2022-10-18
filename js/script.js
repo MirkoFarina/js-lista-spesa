@@ -44,7 +44,7 @@ let c = 0;
 while(c < listaAlimenti.length){
   const li = cEl('li');
 
-  li.innerHTML += listaAlimenti[c];
+  li.innerText += listaAlimenti[c];
 
   c++;
 
